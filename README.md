@@ -12,18 +12,18 @@ In this lab, you will work with a script that scrapes the 5-day weather forecast
 
 - Open this URL in a Firefox or Chrome browser. Locate the information that is being outputted in our script. Right click on this and select the Inspect Element option. This will launch the Inspector window that helps locate different elements on the page.
 
-- Notice that all forecast containers in this section are located in the _forecast-tombstone_ class inside the _li_ tag. In order to scrape multiple elements listed under the same class name, we utilize the _findAll()_ function from BeautifulSoup. The tag and class names are required arguments for this function.
+- Notice that all forecast containers in this section are located in the `forecast-tombstone` class inside the `li` tag. In order to scrape multiple elements listed under the same class name, we utilize the `findAll()` function from BeautifulSoup. The tag and class names are required arguments for this function.
 
 ### Edit the NWS_ WeatherForecast.py script to add the following functionality:
 1. Take latitude and longitude values as inputs in decimal degrees from user
 
-2.	Convert the latitude and longitude values to strings to generate the URL for the selected location. Pass this URL as an argument in the _get()_ request.
+2.	Convert the latitude and longitude values to strings to generate the URL for the selected location. Pass this URL as an argument in the `get()` request.
 
-3.	The returned forecast information did not preserve its spacing during the scraping process. Using the _replace()_ function, fix any spacing issues with the output
+3.	The returned forecast information did not preserve its spacing during the scraping process. Using the `replace()` function, fix any spacing issues with the output
 
 4.	Convert the final output to uppercase
 
-Remember to update the Script1.py file to include comments and documentation in your script to tell me what it’s doing!
+Remember to update your file to include comments and documentation in your script to tell me what it’s doing!
 
 ## Final Project: Script 2
 ### Your Chosen Assignment
