@@ -8,7 +8,7 @@ Secondly, I decided to make the weather data presentable by string manipulation.
 This script was very easy to do as it was very similar to a lab I have completed in week 4.
 
 # SCRIPT 2
-This script creates a chatbot that calculates the bmi based on the user’s height and weight input. The script was to allow the user to be able to also know according to the resulting calculation, whether they are underweight, healthy,overweight and obese. 
+This script creates a chatbot that calculates the bmi based on the user’s height and weight input. The scriptallow the user to be able to also know their bmi according to the resulting calculations, and further more whether they are underweight, healthy,overweightand obese. 
 
 For this script, I created a simple chatbot based on decision trees that look for specific keywords usings both input() function to capture input from the user and  if, elif, else statements to respond back to the user by taking the input numbers and returning them into string values after calculation.
 
