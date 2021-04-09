@@ -17,7 +17,11 @@ The first part of the script uses the input() function to communicate with the u
 Firstly, As this is a chatbot, I included an introductory and greeting component to script. The chatbot asks the user for their name, and responds back with a greeting and letting the user know they are about to check their bmi.
 Secondly, the chatbot provides input boxes that lets the user respond with their height, followed by weight. that they want to calculate for the bmi. 
 Thirdly, I included a function in the script that calculates the bmi based off the user’s measurement input while also rounding up the result > bmi = round(weight / (height/100)**2)
+
 Fourthly, this is followed by a print statement  that tells the user what their bmi is based on the result of the calculation entered by the user in the above three steps.
+
 Lastly, The second part of the script comes to play using the if,elif and else statements to return a statement based on the bmi results. I added four bmi categories to underweight, healthy,overweight and obese. The if statement checks to see whether the variable value for BMI   meets the condition set and if they do the return statements according to the categories.
+
 The output result is the numeric result of the calculation in the output unit selected by the user and the health category statement. However, if the input entered by the user does not fit the category; for example, if the user inputs a word or letter which is impossible to calculate the bmi, the program will report missing data, try again.
+
 The script ran as I expected, though I would have liked to have tried including more health indicators for a more complex chatbot and possibly have the age component relate to the bmi return result itself. I had difficulties in using the operators. I wanted to include range for my bmi values as well as the boolean operators but  encountered errors regarding int and string while this would be easy to resolve, I found that I can just use the boolean operators for a cleaner look on the code.
