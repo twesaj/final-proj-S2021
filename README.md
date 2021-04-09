@@ -1,5 +1,5 @@
 # SCRIPT 1
-This script extracts the 5-day weather forecast using the user’s choice of place by using the  latitude and longitude  from the National Weather Service website using the BeautifulSoup Library. The script provides the user with the input option for the latitude and longitude of a particular location, using the input() function.. 
+This script extracts the 5-day weather forecast using the user’s choice of place by using the  latitude and longitude  from the National Weather Service website using the BeautifulSoup Library. The script provides the user with the input option for the latitude and longitude of a particular location, using the input() function.
 
 Firstly, The script used the latitude and longitude values for Worcester, Massachusetts. The code converted the latitude and longitude values for Worcester, Ma to strings to generate the URL for that area. The script returns an output of a five-day weather forecast for Worcester, Massachusetts. 
 
