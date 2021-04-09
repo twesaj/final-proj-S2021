@@ -1,3 +1,6 @@
+#TWESA MWAISEMBA 
+#FINAL PROJECT
+
 # SCRIPT 1
 This script extracts the 5-day weather forecast using the user’s choice of place by using the  latitude and longitude  from the National Weather Service website using the BeautifulSoup Library. The script provides the user with the input option for the latitude and longitude of a particular location, using the input() function.
 
